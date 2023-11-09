@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @JuviB
-I am a motivated and dedicated graduate with a Bachelor of Commerce (BCOM) degree in Business Informatics.
+- I am a motivated and dedicated graduate with a Bachelor of Commerce (BCOM) degree in Business Informatics.
 Proficient in utilizing technology to enhance business processes and optimize data-driven decision-making.
 Skilled in analyzing complex information systems, identifying areas for improvement, and implementing effective solutions.
 I possess a strong understanding of business operations, information management, and strategic planning.
