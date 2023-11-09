@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #666;
+    text-align: center;
+}
+
+#myPic {
+    display: block;
+    margin: 0 auto;
+}
+
+.Bio {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.Bio h3 {
+    color: #333;
+}
+
+.SkillsAndCompetencies,
+.Education,
+.WorkExperience,
+.Projects {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.SkillsAndCompetencies h3,
+.Education h3,
+.WorkExperience h3,
+.Projects h3 {
+    color: #333;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+h4 em {
+    color: #777;
+}
+
+a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
