@@ -1,54 +1,43 @@
-body, html {
-    height: 100%;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  body {
-	font-family: Inter, sans-serif;
-	background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0.1%, rgb(252, 251, 121) 90%);
-  }
-  
-  /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
-    color: #ffae42;
-    font-weight: bold;
-    text-decoration-color: #ffae42;
-    border: 10px solid #ffae42;
-    
-    border-width: 0px 1px;
-    position: absolute;
-    width: 99%;
-    padding: 20px;
-    text-align: center;
-  }
-
-  h4 a {
-    color: #e28d25; /* Change this to the desired color for regular links */
+body {
+  height: 100%;
+  font-family: Inter, sans-serif;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0.1%, rgb(252, 251, 121) 90%);
 }
 
-  h4 {
-    color: #edc01f; /* Change this to the desired color for visited links */
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+  color: #ffae42;
+  font-weight: bold;
+  text-decoration-color: #ffae42;
+  
+  position: static;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+h4 {
+  color: #edc01f;; /* Change this to the desired color for visited links */
 }
 
 h2 {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: rgb(255, 0, 0);
-  color: #edc01f;
+  color: #edc01f;;
 }
 
 h1 {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: rgb(255, 0, 0);
-  color: #edc01f;
+  color: #edc01f;;
 }
 
 nav a {
   -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: rgb(255, 0, 0);
+  -webkit-text-stroke-color: #edc01f(255, 0, 0);
   color: #edc01f;;
   font-size: 22px;
 }
@@ -65,4 +54,21 @@ nav a {
   height: auto;
   display: block; /* Removes extra space below the image */
 }
+
+.my-image:hover {
+  transform: rotateY(360deg);
+  transition: transform 1s ease-in-out; /* Optional: Add a smooth transition effect */
+}
+
+.bg-image {
+  background-size: cover;
+
+  min-height: 150px; 
+}
+
+
+
+
+
+
 
