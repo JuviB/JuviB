@@ -4,66 +4,99 @@ body {
   background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0.1%, rgb(252, 251, 121) 90%);
 }
 
-/* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.2);
   color: #ffae42;
   font-weight: bold;
   text-decoration-color: #ffae42;
-  
-  position: static;
-  width: 100%;
   padding: 20px;
-  text-align: center;
-
 }
 
 h4 {
-  color: #edc01f;; /* Change this to the desired color for visited links */
+  color: #edc01f;
 }
 
-h2 {
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(255, 0, 0);
-  color: #edc01f;;
+h3 {
+  color: #ff9500;
 }
 
+h2,
 h1 {
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(255, 0, 0);
-  color: #edc01f;;
+  -webkit-text-stroke-color: rgb(255, 225, 0);
+  color: #edc01f;
 }
 
 nav a {
   -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: #edc01f(255, 0, 0);
-  color: #edc01f;;
-  font-size: 22px;
+  -webkit-text-stroke-color: #ff4242;
+  color: #ff9500;
+  font-size: 30px;
 }
 
 .my-image {
-  display: inline-block; /* Ensures the border-radius works properly */
-  overflow: hidden; /* Hides overflowing content */
-  border-radius: 50%; /* Makes a circle with border-radius */
-  border: 5px solid #edc01f; /* Border color and width */
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #edc01f;
 }
 
 .my-image img {
-  width: 150px; /* Adjust the width as needed */
-  height: auto;
-  display: block; /* Removes extra space below the image */
+  width: 300px;
+  height: 250px;
+  display: block;
 }
 
 .my-image:hover {
   transform: rotateY(360deg);
-  transition: transform 1s ease-in-out; /* Optional: Add a smooth transition effect */
+  transition: transform 1s ease-in-out;
 }
 
 .bg-image {
-  background-size: cover;
+  position: relative;
+}
 
-  min-height: 150px; 
+.position-absolute {
+  position: absolute;
+}
+
+.row {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.custom-padding {
+  padding: 70px; 
+}
+
+.image1,
+.image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#technical {
+  /* Add any additional styling for the image if needed */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-height: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.soft-skills-section,
+.technical-skills-section {
+  color: #000000; /* Set the text color */
+  font-size: 22px; /* Set the font size */
+  padding: 20px; /* Add padding for better visual appearance */
+}
+
+.soft-skills-description,
+.tech-skills-description  {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.1);
+  font-size: 20px; /* Set the desired font size */
+  padding: 20px; /* Add padding for better visual appearance */
 }
 
 
