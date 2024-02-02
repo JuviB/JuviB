@@ -101,7 +101,46 @@ nav a {
 
 
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 
+footer {
+  font-family: 'Outfit';
+  background: #ff8356;
+}
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-left-title h2 {
+  font-weight: 600;
+  color: #ffe981;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.contact-left-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #ffe981;  
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
 
 
