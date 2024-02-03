@@ -1,16 +1,13 @@
 body {
   height: 100%;
   font-family: Inter, sans-serif;
-  background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0.1%, rgb(252, 251, 121) 90%);
+  background: radial-gradient(circle at 10% 20%, rgb(255, 169, 49) 0.1%, rgb(255, 255, 137) 100%);
 }
 
 .bg-text {
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.2);
+  background-color: rgba(0,0,0, 0.3);
   color: #ffae42;
   font-weight: bold;
-  text-decoration-color: #ffae42;
-  padding: 20px;
 }
 
 h4 {
@@ -18,7 +15,7 @@ h4 {
 }
 
 h3 {
-  color: #ff9500;
+  color: #ff2f00;
 }
 
 h2,
@@ -32,7 +29,7 @@ nav a {
   -webkit-text-stroke-width: 0.1px;
   -webkit-text-stroke-color: #ff4242;
   color: #ff9500;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .my-image {
@@ -44,7 +41,7 @@ nav a {
 
 .my-image img {
   width: 300px;
-  height: 250px;
+  height: 300px;
   display: block;
 }
 
@@ -53,18 +50,9 @@ nav a {
   transition: transform 1s ease-in-out;
 }
 
-.bg-image {
-  position: relative;
-}
-
-.position-absolute {
-  position: absolute;
-}
-
 .row {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  margin-bottom: 50px;
 }
 
 .custom-padding {
@@ -101,20 +89,18 @@ nav a {
 
 
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
 
 footer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: 'Outfit';
-  background: #ffe856;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0.1%, rgb(252, 251, 121) 90%);;
 }
 
 .contact-container {
-  height: 100vh;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -129,7 +115,7 @@ footer {
 
 .contact-left-title h2 {
   font-weight: 600;
-  color: #ff8400;
+  color: #ff8000;
   font-size: 40px;
   margin-bottom: 5px;
 }
@@ -138,7 +124,7 @@ footer {
   border: none;
   width: 120px;
   height: 5px;
-  background-color: #ffe981;  
+  background-color: #e78420;  
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -185,7 +171,7 @@ footer {
   height: 15px;
 }
 
-.contact right img{
+.contact-right img{
   width: 500px
 }
 
@@ -200,6 +186,6 @@ footer {
     width: 80vw;
   }
   .contact-right{
-    display:none;
+    display: none;
   }
 }
